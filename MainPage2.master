@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainPage2.master.cs" Inherits="MainPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style3 {
+            height: 257px;
+        }
+        .auto-style5 {
+            text-align: center;
+        }
+        .newStyle1 {
+            font-family: "COMIc Sans MS";
+        }
+        .newStyle2 {
+            font-family: "COMIc Sans MS";
+            font-size: 150px;
+            font-style: italic;
+            color: #FFDFBF;
+            background-color: #B97E45;
+        }
+        .newStyle3 {
+            font-family: "COMic Sans MS";
+        }
+        .auto-style7 {
+            color: #FFFFFF;
+        }
+        .auto-style9 {
+            color: #FFFFFF;
+            font-size: x-large;
+        }
+        .auto-style10 {
+            font-size: x-large;
+            background-color: #000000;
+        }
+        .auto-style11 {
+            font-family: "COMic Sans MS";
+            color: #FFFFFF;
+            font-size: x-large;
+            background-color: #000000;
+        }
+        .auto-style12 {
+            color: #FFFFFF;
+            font-size: x-large;
+            background-color: #000000;
+        }
+        .auto-style13 {
+            font-size: x-large;
+        }
+        .auto-style14 {
+            color: #FFFFFF;
+            background-color: #000000;
+        }
+        .newStyle4 {
+            font-family: "Tempus Sans ITC";
+            font-size: x-large;
+            font-weight: bolder;
+            color: #FFFFFF;
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style3" style="background-image: url('/library/library/image/ltce-mumbai.png'); background-repeat: no-repeat; background-attachment: inherit; background-position: 0px 0px" colspan="2">
+                    <br />
+                    <asp:Image ID="Image1" runat="server" Height="256px" ImageUrl="~/image/lokmanya.jpg" Width="1322px" />
+                </td>
+            </tr>
+            <tr>
+                <td aria-selected="false" class="newStyle4" style="background: #B59D80 url('/image/LB2.jpg') 0px 0px; text-align: center; ">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <span class="auto-style12">Welcome
+                    </span>
+                    <br class="auto-style12" />
+                    <strong>
+                    <asp:Label ID="LBLNAME" runat="server" CssClass="auto-style12"></asp:Label>
+                    </strong><span class="auto-style13"><strong><span class="auto-style14">!!!</span></strong></span><br />
+                    <br />
+                    <asp:LinkButton ID="lbllogout" runat="server" CssClass="auto-style11" OnClick="lbllogout_Click" style="font-style: italic; font-weight: 700; text-align: right">LOGOUT</asp:LinkButton>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br class="auto-style7" />
+                    <asp:LinkButton ID="lbllib" runat="server" CssClass="auto-style11" style="font-style: italic; font-weight: 700; text-align: right" OnClick="lbllib_Click">About Library</asp:LinkButton>
+                    <br class="auto-style7" />
+                    <br class="auto-style12" />
+                    <asp:LinkButton ID="lblus" runat="server" CssClass="auto-style11" style="font-style: italic; font-weight: 700; text-align: right" OnClick="lblus_Click">About Developer</asp:LinkButton>
+                    <br class="auto-style10" />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <asp:Image ID="Image2" runat="server" Height="166px" ImageUrl="~/image/ready_to_launch_PA_500_clr_5052.gif" Width="237px" />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+                <td style="background-image: url('/image/backlayout.jpg'); background-attachment: scroll; background-repeat: no-repeat; background-color: #FFFF99;"><
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                            &nbsp;</p>
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style5" colspan="2" style="background-color: #000000; font-family: 'COMIC Sans MS'; font-size: medium; color: #FFFFFF">All rights reserved to Lokmanya Tilak College of Engineering</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

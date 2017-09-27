@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainPage1.master.cs" Inherits="MainPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 301px;
+        }
+        .auto-style3 {
+            width: 301px;
+            height: 238px;
+        }
+        .auto-style4 {
+            height: 238px;
+            text-align: center;
+        }
+        .auto-style5 {
+            text-align: center;
+        }
+        .newStyle1 {
+            font-family: "COMIc Sans MS";
+        }
+        .newStyle2 {
+            font-family: "COMIc Sans MS";
+            font-size: 150px;
+            font-style: italic;
+            color: #FFDFBF;
+            background-color: #B97E45;
+        }
+        .newStyle3 {
+            font-family: "COMic Sans MS";
+        }
+        .newStyle4 {
+            background-image: url('/back.jpg');
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style3" style="background-image: url('/library/image/ltce-mumbai.png'); background-repeat: no-repeat; background-attachment: inherit; background-position: 0px 0px"></td>
+                <td class="auto-style4" style="background-position: 0px 0px; background-image: none; background-repeat: no-repeat; background-color: #BB8C60; border: medium solid #FFFFFF; background-attachment: fixed;">
+                    <br />
+                    <span class="newStyle2"><strong><em style="font-size: 30pt; background-color: #BB8C60;">LOKMANYA TILAK COLLEGE OF ENGINEERING </em></strong></span></td>
+            </tr>
+            <tr>
+                <td aria-selected="false" class="auto-style2" style="background: #B59D80 url('/library/image/book-promotion-blurb[1].jpg') no-repeat 0px 250px; text-align: center;">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <asp:Label ID="LBLNAME" runat="server"></asp:Label>
+                    <br />
+                    <br />
+                    <asp:LinkButton ID="lbllogout" runat="server" CssClass="newStyle3" style="font-style: italic; font-weight: 700; text-align: right" OnClick="lbllogout_Click1">LOGOUT</asp:LinkButton>
+                    <br />
+                    <asp:LinkButton ID="lbllib" runat="server" CssClass="newStyle3" style="font-style: italic; font-weight: 700; text-align: right">About Library</asp:LinkButton>
+                    <br />
+                    <br />
+                    <asp:LinkButton ID="lblus" runat="server" CssClass="newStyle3" style="font-style: italic; font-weight: 700; text-align: right">About Developer</asp:LinkButton>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+                <td style="background-image: url('/library/image/back.jpg'); background-attachment: inherit; background-repeat: inherit">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style5" colspan="2" style="background-color: #000000; font-family: 'COMIC Sans MS'; font-size: medium; color: #FFFFFF">All rights reserved to Lokmanya Tilak College of Engineering</td>
+        </tr>
+                    </table>
+
+    </form>
+</body>
+</html>

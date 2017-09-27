@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/img/lib.jpg</ImageUrl>
+    <Impressions>40</Impressions>
+    <Keyword>small</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/library1.jpg</ImageUrl>
+    <Impressions>40</Impressions>
+    <Keyword>small</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/library.jpg</ImageUrl>
+    <Impressions>40</Impressions>
+    <Keyword>small</Keyword>
+  </Ad>
+</Advertisements>
